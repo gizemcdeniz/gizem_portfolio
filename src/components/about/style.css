@@ -1,0 +1,104 @@
+.aboutMeContainer{
+  margin-top: 7%;
+  background-color: rgb(231, 232, 233);
+  padding: 2em;
+}
+
+
+.hey-content h1{
+  /* background: linear-gradient(to right, #e05780, #7bdff2 70%); */
+  /* background: linear-gradient(to right, #0A014F, #D81E5B 80%); */
+  background: linear-gradient(to right, #050517, #CF5C36 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hey-content p{
+  background:  linear-gradient(to right, #CF5C36, #04A777 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;  
+
+}
+
+.wecandoit-img {
+border-radius: 50%;
+width: 90%;
+height: 40%;
+margin-top: -100px;
+}
+
+
+.about-me-caption,
+.section-p{
+  font-weight: 300;
+}
+.about-me-caption .strongy{
+  color: #ee274f;
+  font-weight: 500;
+}
+.find-me{
+  color: #ccc;
+}
+.list-social-links li{
+  display: inline-block;
+  margin: 10px 50px 10px 0;
+
+}
+.list-social-links:hover li a i{
+  opacity: .5;
+  transition: all .2s ease-in-out;
+}
+.list-social-links li:hover a i:hover{
+  opacity: 1;
+}
+.list-social-links i.github{
+  color: #212529;
+}
+.list-social-links i.linkedin{
+  color: #0073b1;
+}
+.list-social-links i.instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.list-social-links i.twitter{
+  color: #1DA1F2;
+}
+.btn-main{
+  background-color: #ee274f;
+  border: 1px solid #ee274f;
+  color: #fff;
+  border-radius: 56px;
+  font-weight: 400;
+}
+
+.devloper-img{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+@media (max-width: 400px){
+  .btn-main{
+    margin-bottom:10px;
+  }
+}
+.btn-main:hover{
+  color: #ee274f;
+  background-color: #fff;
+}
+.btn-outline-primary{
+  border-radius: 56px;
+}
+@media (max-width: 992px){
+  .devloper-img{
+    max-width: 70%;
+    margin: 40px auto;
+    display: block;
+  }
+  .btns-container{
+    margin-bottom: 40px;
+  }
+}

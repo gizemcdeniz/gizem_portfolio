@@ -57,8 +57,9 @@ export default function Contact() {
                              <Col md={6}>
                 <span style={{color: "black", fontSize:"2em"}} className="find-me">Social Media</span>
                 <ul className="list-unstyled list-social-links">
-                  <li className="d-inline-block m-3"><a href="https://github.com/gizemcdeniz/" target="_blank" rel='noreferrer noopener'><i className="fab fa-5x fa-github github"></i></a></li>
-                  <li className="d-inline-block m-3"><a href="https://www.linkedin.com/in/gizem-deniz//" target="_blank" rel='noreferrer noopener'><i className="fab fa-5x fa-linkedin linkedin"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="https://github.com/gizemcdeniz/" target="_blank" rel='noreferrer noopener'><i className="fab fa-3x fa-github github"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="https://www.linkedin.com/in/gizem-deniz/" target="_blank" rel='noreferrer noopener'><i className="fab fa-3x fa-linkedin linkedin"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="https://medium.com/@gizemc.deniz" target="_blank" rel='noreferrer noopener'><i className="fab fa-3x fa-medium medium"></i></a></li>
                 </ul>
                 </Col>
                         </FadeInLeftDiv>

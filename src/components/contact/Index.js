@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import formImg from './Img/form-img.png'
+// import formImg from './Img/form-img.png'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'

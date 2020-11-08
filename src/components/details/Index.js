@@ -5,27 +5,27 @@ import formImg from './Img/gizem.jpg'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 // Animate
 import styled, { keyframes } from 'styled-components';
 import FadeInLeft from 'react-animations/lib/fade-in-left'
 import FadeInRight from 'react-animations/lib/fade-in-right'
 // For forwarding the email to my Gmail account
-import emailjs from 'emailjs-com';
+// ç
 
 export default function Contact() {
 
-    function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm('default_service', 'template_gTdonydB', e.target, 'user_0GwZUMzrr2oQ1HgYaHHC8')
-            .then((result) => {
-                alert("Thank you, Your messeage have been sent");
-                document.forms["myForm"].reset();
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    }
+    // function sendEmail(e) {
+    //     e.preventDefault();
+    //     emailjs.sendForm('default_service', 'template_gTdonydB', e.target, 'user_0GwZUMzrr2oQ1HgYaHHC8')
+    //         .then((result) => {
+    //             alert("Thank you, Your messeage have been sent");
+    //             document.forms["myForm"].reset();
+    //             console.log(result.text);
+    //         }, (error) => {
+    //             console.log(error.text);
+    //         });
+    // }
 
     const FadeInLeftAnimation = keyframes`${FadeInLeft}`;
     const FadeInLeftDiv = styled.div`

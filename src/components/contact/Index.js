@@ -11,21 +11,21 @@ import styled, { keyframes } from 'styled-components';
 import FadeInLeft from 'react-animations/lib/fade-in-left'
 import FadeInRight from 'react-animations/lib/fade-in-right'
 // For forwarding the email to my Gmail account
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 export default function Contact() {
 
-    function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm('service_kt9c15b', 'template_e16dwsp', e.target, 'user_jwGNhvDiskqQ4F2iAMuU5')
-            .then((result) => {
-                alert("Thank you, Your messeage have been sent");
-                document.forms["myForm"].reset();
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    }
+    // function sendEmail(e) {
+    //     e.preventDefault();
+    //     emailjs.sendForm('service_kt9c15b', 'template_e16dwsp', e.target, 'user_jwGNhvDiskqQ4F2iAMuU5')
+    //         .then((result) => {
+    //             alert("Thank you, Your messeage have been sent");
+    //             document.forms["myForm"].reset();
+    //             console.log(result.text);
+    //         }, (error) => {
+    //             console.log(error.text);
+    //         });
+    // }
 
     const FadeInLeftAnimation = keyframes`${FadeInLeft}`;
     const FadeInLeftDiv = styled.div`

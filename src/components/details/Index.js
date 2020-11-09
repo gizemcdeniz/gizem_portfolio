@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import formImg from './Img/gizem.jpg'
+import formImg from './Img/gizemd.jpg'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -48,17 +48,24 @@ export default function Contact() {
                     <Col md={6}>
                         <FadeInLeftDiv>
                         <div className="hey-content" >
-                  <h1 className="mb-0">WHERE I AM FROM?</h1>
+                  <h1 className="mb-0">WHO AM I?</h1>
                 </div>
                 {/* <p className="lead about-me-caption">I have changed my career goals from tourism to become a front-end developer. 
                 I am really excited to bring the applications that I will create with my fingers to users from other parts of the world. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by Re:Coded I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that he learned.</p> */}
-                <p>I was born in Turkey however my family immigrate from Bulgarian so I have dual citizenship, it's allows me to work without work permission.</p>
+                <p>Hey, My name is Gizem, I am someone who discovered the software industry late, but developed something my ideas with my fingers and was impressed by it and found myself in the software world. </p>
+                <ul>
+                    <li>Fast learner</li>
+                    <li>Fond of self-development</li>
+                    <li>Haven't one zero-day</li>
+                    <li>Enthusiastic, Passionate, Innovator, Ambitious</li>
+                    <li>Good team player, Friendly, Moath</li>
+                </ul>
                 <div className="hey-content" >
                   <h1 className="mb-0">EDUCATION</h1>
                 </div>
                 {/* <p className="lead about-me-caption">I have changed my career goals from tourism to become a front-end developer. 
                 I am really excited to bring the applications that I will create with my fingers to users from other parts of the world. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by Re:Coded I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that he learned.</p> */}
-                <p>I studied in high school, university on tourism. My master's degree is for tourism also. However, by turning the crisis into an opportunity during the pandemic period, I have started to learn coding on Youtube, then I met with Re:Coded. It was a biggest chance in my life. While I didn't even understand what the developers were writing on the black screen, now I started coding like them. </p>
+                <p>I studied in high school, university on tourism. My master's degree is for tourism also. <br></br>However, by turning the crisis into an opportunity during the pandemic period, I have started to learn coding on Youtube, then I met with Re:Coded. It was a biggest chance in my life. <br></br>While I didn't even understand what the developers were writing on the black screen, now I started coding like them. </p>
                 <div className="hey-content" >
                   <h1 className="mb-0">SKILLS</h1>
                 </div>
@@ -78,7 +85,7 @@ export default function Contact() {
                 </div>
                 {/* <p className="lead about-me-caption">I have changed my career goals from tourism to become a front-end developer. 
                 I am really excited to bring the applications that I will create with my fingers to users from other parts of the world. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by Re:Coded I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that he learned.</p> */}
-                <p>I am eager to bring the applications I will create with my fingers to the users from the other side of the world!</p>
+                <p>I am eager to bring the applications I will create with my fingers to the users from the other side of the world! I am passionate about doing websites that affect the user at first sight and making applications to make people's lives easier.</p>
                         </FadeInLeftDiv>
                     </Col>
                     <Col md={6}>

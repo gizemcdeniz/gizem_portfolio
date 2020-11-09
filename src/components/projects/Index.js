@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './style.css'
 import Pro1 from './img/image1.png'
 import Pro2 from './img/image2.png'
-import Pro3 from './img/image2.png'
+import Pro3 from './img/image3.png'
 import Pro4 from './img/image2.png'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
@@ -68,7 +68,7 @@ export default class Projects extends Component {
                                     <div className="hover-5-content">
                                         <h4 className="hover-5-title text-uppercase text-center text-white">My Portfolio</h4>
                                         <p className="lead porject-cption text-center text-white px-2">Personal portfolio website template. The application is based on React and bootstrap 4+</p>
-                                        <a className="project-link text-center"  href="https://madlibsrecoded.netlify.app" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
+                                        <a className="project-link text-center"  href="https://gizemportfolio.netlify.app/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
                                     </div>
                                 </div>
                             </FadeInUpDiv2s>

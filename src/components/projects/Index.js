@@ -4,6 +4,8 @@ import Pro1 from './img/image1.png'
 import Pro2 from './img/image2.png'
 import Pro3 from './img/image3.png'
 import Pro4 from './img/image4.png'
+import Pro5 from './img/image5.png'
+import Pro6 from './img/image6.png'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -32,6 +34,19 @@ export default class Projects extends Component {
                     </div>
                     <Row>
                         {/* Project 1 */}
+                        <Col lg={6} className="mb-3">
+                            <FadeInUpDiv2s>
+                                <div className="hover hover-5 text-white rounded">
+                                    <img className="img-fluid" src={Pro5} alt="project"></img>
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-5-content">
+                                        <h4 className="hover-5-title text-uppercase text-center text-white">Capstone Project</h4>
+                                        <p className="lead porject-cption text-center text-white px-2">Capstone Project creating by React.Using Ant Desing, Cloud Firestore, i18Next, Wordpres API</p>
+                                        <a className="project-link text-center"  href="https://feed-the-needy.netlify.app/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </FadeInUpDiv2s>
+                        </Col>
                         <Col lg={6} className="mb-3">
                             <FadeInUpDiv1s>
                                 <div className="hover hover-5 text-white rounded">
@@ -80,9 +95,22 @@ export default class Projects extends Component {
                                     <img className="img-fluid" src={Pro4} alt="project"></img>
                                     <div className="hover-overlay"></div>
                                     <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white">ToDo App with ReactJS</h4>
+                                        <h4 className="hover-5-title text-uppercase text-center text-white">ToDo App</h4>
                                         <p className="lead porject-cption text-center text-white px-2">Small to-do app creating by React.</p>
                                         <a className="project-link text-center"  href="https://github.com/gizemcdeniz/todoapp" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </FadeInUpDiv2s>
+                        </Col>
+                        <Col lg={6} className="mb-3">
+                            <FadeInUpDiv2s>
+                                <div className="hover hover-5 text-white rounded">
+                                    <img className="img-fluid" src={Pro6} alt="project"></img>
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-5-content">
+                                        <h4 className="hover-5-title text-uppercase text-center text-white">Traveller Checklist</h4>
+                                        <p className="lead porject-cption text-center text-white px-2">Using Bootstrap, Cloud Firestore</p>
+                                        <a className="project-link text-center"  href="https://github.com/gizemcdeniz/traveller-check-list" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
                                     </div>
                                 </div>
                             </FadeInUpDiv2s>

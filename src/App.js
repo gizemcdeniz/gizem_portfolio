@@ -11,10 +11,13 @@ import Contact from './components/contact/Index'
 import Details from './components/details/Index'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
+import i18n from "./i18n";
+import { I18nextProvider } from "react-i18next";
 
 function App() {
   return (
     ReactDOM.render((
+      <I18nextProvider i18n={i18n}>
       <Router>
         <>
           <Container>
@@ -26,7 +29,8 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />
         </>
-      </Router>),
+      </Router>
+      </I18nextProvider>),
       document.getElementById('root')
     )
   )

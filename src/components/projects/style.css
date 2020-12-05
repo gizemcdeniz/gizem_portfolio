@@ -1,96 +1,104 @@
-.section-title{
-  background:  linear-gradient(to right, #ee274f, #62c0e3 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-}  
-.hover {
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 60%;
+.project-wrapper {
+  border: 5px solid linear-gradient(to left, #743ad5, #d53a9d);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #2D8DBD;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 80%;
+  border: 5px solid black;
+  
 }
 
-.project {
-  width: 100%;
-  height: 100%;
-}
-.hover-overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 90;
-  transition: all 0.4s;
-}
-.hover img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.3s;
-}
-.hover-content {
-  position: relative;
-  z-index: 99;
-}
-.hover-5::after {
-  content: '';
-  width: 100%;
-  height: 10px;
-  background:  linear-gradient(to right, #ee274f, #62c0e3 70%);
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  display: block;
-  transition: all 0.3s;
-  z-index: 999;
-}
-.hover-5 .hover-overlay {
-  background: rgba(0, 0, 0, 0.4);
-}
-.hover-5:hover .hover-overlay {
-  background: rgba(0, 0, 0, 0.8);
-}
-.hover-5:hover::after {
-  bottom: 0;
-}
-.hover-5-title{
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  transition: all 0.3s;
-  z-index: 99;
-}
-.hover-5:hover .hover-5-title{
-  top: 15%;
+.project-wrapper:hover {
+  box-shadow: 10px 10px 10px 10px #b37f7f;
 }
 
-.porject-cption{
-  position: absolute;
-  bottom: -15rem;
+.projects {
+  padding: 3rem;
   width: 100%;
-  transition: all 0.3s;
-  z-index: 99;
+  
 }
-.hover-5:hover .porject-cption{
-  bottom: 5rem;
+
+.projectsSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: center;
 }
-.project-link{
-  position: absolute;
-  bottom: -15rem;
+
+.project-wrapper .project-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.project-iframe {
+  justify-content: center;
   width: 100%;
-  transition: all 0.3s;
-  padding: 2rem 3rem;
-  z-index: 99;
-  color: #fff;
+  display: flex;
+  border: 5px solid blue;
+  margin-bottom: 2em;
 }
-.hover-5:hover .project-link{
-  bottom: 1rem;
+.title {
+  color: rgb(202, 86, 86);
+  text-shadow: 2px 2px black;
 }
-@media (max-width: 450px){
-  .porject-cption{
-      display: none;
+
+.project-wrapper h1 {
+  text-shadow: 1px 1px gray;
+  text-align: center;
+}
+
+.project-wrapper .project-text {
+  text-align: left;
+}
+
+.project-text {
+  width: 80%;
+  border: 1px solid red;
+}
+
+.iconProject {
+  justify-content: center;
+  display: flex;
+}
+.external-icon {
+  padding-left: 0.5em;
+  color: black;
+  justify-content: center;
+}
+
+.github-icon {
+  padding-right: 0.5em;
+  color: black;
+}
+
+.projects-bolds {
+  text-align: left;
+}
+
+.project-iframe {
+  padding: 1.5rem 0;
+}
+
+.otherProjects {
+  padding: 1rem 0;
+}
+
+.otherProjects ul {
+  text-align: left;
+}
+
+@media only screen and (max-width: 576px) {
+  .projects {
+    padding: 1rem;
+  }
+
+  .project-wrapper iframe {
+    width: 100%;
+  }
+  .project-wrapper {
+    width: 100%;
   }
 }

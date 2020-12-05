@@ -13,11 +13,11 @@ import 'react-typed/dist/animatedCursor.css';
 import styled, { keyframes } from 'styled-components';
 import FadeInLeft from 'react-animations/lib/fade-in-left'
 import FadeInRight from 'react-animations/lib/fade-in-right'
+import { useTranslation } from "react-i18next";
 
-export default class About extends React.Component {
 
-  render() {
 
+const About = () =>  {
     const FadeInLeftAnimation = keyframes`${FadeInLeft}`;
     const FadeInLeftDiv = styled.div`
       animation:  2s ${FadeInLeftAnimation};
@@ -27,7 +27,7 @@ export default class About extends React.Component {
     const FadeInRightDiv = styled.div`
     animation:  0s ${FadeInRightAnimation};
     `;
-
+const { t } = useTranslation();
     return (
       <>
         <Container className="aboutMeContainer">
@@ -35,8 +35,9 @@ export default class About extends React.Component {
             <Col lg={6} md={12}>
               <FadeInLeftDiv>
                 <div className="hey-content" >
-                  <h1 className="mb-0"><strong>Hey, I'm Gizem Deniz</strong></h1>
-                  <p className="mt-0"><strong>Front End Developer</strong></p>
+                  {/* <h1 className="mb-0"><strong>Hey, I'm Gizem Deniz</strong></h1> */}
+                  <h1 className="mb-0"><strong>{t("about.title0")}</strong></h1>
+                  <p className="mt-0"><strong>{t("about.title1")}</strong></p>
                 </div>
                 <p className="lead about-me-caption">Experienced with <Typed className="strongy"
                   strings={['HTML and CSS', 'JavaScript', 'React ']}
@@ -45,7 +46,7 @@ export default class About extends React.Component {
                   strings={['Learning', 'Practicing', 'Self-developing ']}
                   typeSpeed={40} backSpeed={50} loop /><br></br>to be a Front-End Web Developer</p> */}
 
-                <span style={{color: "black"}} className="find-me">Get in touch!</span>
+                <span style={{color: "black"}} className="find-me">{t("about.title2")}</span>
                 <ul className="list-unstyled list-social-links">
                   <li className="d-inline-block m-3"><a href="https://github.com/gizemcdeniz/" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-github github"></i></a></li>
                   <li className="d-inline-block m-3"><a href="https://www.linkedin.com/in/gizem-deniz//" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-linkedin linkedin"></i></a></li>
@@ -62,5 +63,5 @@ export default class About extends React.Component {
       </>
     );
   }
-}
+  export default About;
 

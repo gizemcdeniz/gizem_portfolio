@@ -1,123 +1,127 @@
-import React, { Component } from 'react'
-import './style.css'
-import Pro1 from './img/image1.png'
-import Pro2 from './img/image2.png'
-import Pro3 from './img/image3.png'
-import Pro4 from './img/image4.png'
-import Pro5 from './img/image5.png'
-import Pro6 from './img/image6.png'
-// Bootstrap
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-// Animate
-import styled, { keyframes } from 'styled-components';
-import FadeInUp from 'react-animations/lib/fade-in-up'
+import React from "react";
+import projectList from "./iframes";
+import { GoLinkExternal, GoMarkGithub } from "react-icons/go";
+import "./style.css";
+import { useTranslation } from "react-i18next";
 
-export default class Projects extends Component {
-    render() {
-        const FadeInUpAnimation = keyframes`${FadeInUp}`;
+const Projects = () => {
+  const { t } = useTranslation();
 
-        const FadeInUpDiv1s = styled.div`
-        animation:  1s ${FadeInUpAnimation};
-        `;
+  const titleList = [
+    "It's On Us",
+    "My Portfolio",
+    "Movie-Project",
+    "Madlibs",
+  ];
 
-        const FadeInUpDiv2s = styled.div`
-          animation:  2s ${FadeInUpAnimation};
-        `;
+  const textList = [
+    t("projects.texts.text0"),
+    t("projects.texts.text1"),
+    t("projects.texts.text2"),
+    t("projects.texts.text3"),
+    t("projects.texts.text4"),
+    t("projects.texts.text5"),
+    t("projects.texts.text6"),
+    t("projects.texts.text7"),
+    t("projects.texts.text8"),
+    t("projects.texts.text9"),
+    t("projects.texts.text10"),
+    t("projects.texts.text11"),
+  ];
 
-        return (
-            <>
-                <Container>
-                    <div className="text-center section-caption">
-                        <h1 className="section-title pt-5 pb-3">My Projects</h1>
-                    </div>
-                    <Row>
-                        {/* Project 1 */}
-                        <Col lg={6} className="mb-3">
-                            <FadeInUpDiv2s>
-                                <div className="hover hover-5 text-white rounded">
-                                    <img className="img-fluid" src={Pro5} alt="project"></img>
-                                    <div className="hover-overlay"></div>
-                                    <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white">Capstone Project</h4>
-                                        <p className="lead porject-cption text-center text-white px-2">Capstone Project creating by React.Using Ant Desing, Cloud Firestore, i18Next, Wordpres API</p>
-                                        <a className="project-link text-center"  href="https://feed-the-needy.netlify.app/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </FadeInUpDiv2s>
-                        </Col>
-                        <Col lg={6} className="mb-3">
-                            <FadeInUpDiv1s>
-                                <div className="hover hover-5 text-white rounded">
-                                    <img  className="project" src={Pro1} alt="project"></img>
-                                    <div className="hover-overlay"></div>
-                                    <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white text-bold">Movie Project</h4>
-                                        <p className="lead porject-cption text-center text-white px-2">Used Javascript, Bootstarp, CSS, Movie API</p>
-                                        <a className="project-link text-center" href="https://movieprojectr.netlify.app/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </FadeInUpDiv1s>
-                        </Col>
-                        {/* Project 2 */}
-                        <Col lg={6} className="mb-3">
-                            <FadeInUpDiv2s>
-                                <div className="hover hover-5 text-white rounded">
-                                    <img className="img-fluid" src={Pro3} alt="project"></img>
-                                    <div className="hover-overlay"></div>
-                                    <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white">My Portfolio</h4>
-                                        <p className="lead porject-cption text-center text-white px-2">Personal portfolio website template. The application is based on React and bootstrap 4+</p>
-                                        <a className="project-link text-center"  href="https://gizemportfolio.netlify.app/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </FadeInUpDiv2s>
-                        </Col>
-                         {/* Project 3 */}
-                        <Col lg={6} className="mb-3">
-                            <FadeInUpDiv2s>
-                                <div className="hover hover-5 text-white rounded">
-                                    <img className="project" src={Pro2} alt="project"></img>
-                                    <div className="hover-overlay"></div>
-                                    <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white">Mad-Libs</h4>
-                                        <p className="lead porject-cption text-center text-white px-2">Small website creating by JavaScript and CSS</p>
-                                        <a className="project-link text-center" href="https://madlibsrecoded.netlify.app" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </FadeInUpDiv2s>
-                        </Col>
-                        {/* Project 4 */}
-                        <Col lg={6} className="mb-3">
-                            <FadeInUpDiv2s>
-                                <div className="hover hover-5 text-white rounded">
-                                    <img className="img-fluid" src={Pro4} alt="project"></img>
-                                    <div className="hover-overlay"></div>
-                                    <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white">ToDo App</h4>
-                                        <p className="lead porject-cption text-center text-white px-2">Small to-do app creating by React.</p>
-                                        <a className="project-link text-center"  href="https://github.com/gizemcdeniz/todoapp" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </FadeInUpDiv2s>
-                        </Col>
-                        <Col lg={6} className="mb-3">
-                            <FadeInUpDiv2s>
-                                <div className="hover hover-5 text-white rounded">
-                                    <img className="img-fluid" src={Pro6} alt="project"></img>
-                                    <div className="hover-overlay"></div>
-                                    <div className="hover-5-content">
-                                        <h4 className="hover-5-title text-uppercase text-center text-white">Traveller Checklist</h4>
-                                        <p className="lead porject-cption text-center text-white px-2">Using Bootstrap, Cloud Firestore</p>
-                                        <a className="project-link text-center"  href="https://github.com/gizemcdeniz/traveller-check-list" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </FadeInUpDiv2s>
-                        </Col>
-                    </Row>
-                </Container>
-            </>
-        )
-    }
-}
+  const repoList = [
+    "https://github.com/ReCoded-Org/capstone-istanbul-feed_the_needy",
+    "https://github.com/gizemcdeniz/gizem_portfolio",
+    "https://github.com/gizemcdeniz/movie_project.github.io",
+    "https://github.com/gizemcdeniz/mad-libs",
+  ];
+
+  const linkList = [
+    "https:/feed-the-needy.netlify.app/",
+    "https://movieprojectr.netlify.app/",
+    "https://gizemportfolio.netlify.app/",
+    "https://madlibsrecoded.netlify.app"
+  ];
+
+  const techList = [
+    "React, Firebase; Cloud Firestore, JavaScript, Netlify, Ant Design, i8next",
+    "React, Firebase; Cloud Firestore, JavaScript, Netlify, Bootstrap, i8next",
+    "JavaScript, MovieDB API, Bootstrap, HTML and CSS",
+    "JavaScript, HTML, CSS, Bootstrap"
+  ];
+
+  const topicList = [
+    "SCRUM, Unit Testing, Code Reviews, UI/UX Design",
+    "React, Bootstrap, Bootstrap",
+    "Pair-programming, Object oriented programming, Bootstrap",
+    "JavaScript, HTML and CSS, i18next, Regular Expressions",
+  ];
+
+
+  const projectObjList = [];
+
+  for (let i = 0; i < projectList.length; i++) {
+    projectObjList.push({
+      website: projectList[i],
+      title: titleList[i],
+      text: textList[i],
+      repo: repoList[i],
+      link: linkList[i],
+      topic: topicList[i],
+      tech: techList[i],
+    });
+  }
+
+
+  return (
+    <div className="projects">
+    <div className="projectsSection">
+      <h1 className="title">{t("projects.titles.title0")}</h1>
+      {projectObjList.map((project) => (
+        <div className="project-wrapper">
+          <h1>{project.title}</h1>
+          <h3>
+          <div className="iconProject">
+            <a
+              className="github-icon"
+              target="_blank"
+              rel="noreferrer"
+              title={t("projects.links.link0")}
+              href={project.repo}
+            >
+              <GoMarkGithub />
+            </a>
+            {project.link ? (
+              <a
+                className="external-icon"
+                target="_blank"
+                rel="noreferrer"
+                title={t("projects.links.link1")}
+                href={project.link}
+              >
+                <GoLinkExternal />
+              </a>
+
+            ) : null}
+            </div>
+          </h3>
+          <div className="project-iframe">{project.website}</div>
+          <p className="project-text">{project.text}</p>
+          <div className="projects-bolds">
+            <p className="project-text">
+              <b>{t("projects.bolds.bold0")}</b>
+              {project.topic}
+            </p>
+            <p className="project-text">
+              <b>{t("projects.bolds.bold1")}</b>
+              {project.tech}
+            </p>
+          </div>
+        </div>
+      ))}
+      </div>
+    </div>
+  );
+};
+
+export default Projects;

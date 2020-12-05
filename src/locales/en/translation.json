@@ -1,0 +1,52 @@
+{
+    "about": {
+        "title0": "Hey I'm Gizem",
+        "title1": "Front End Developer",
+        "title2": "Get in touch!"
+      },
+      "details": {
+        "head": "Here's all about you need to know about me!",
+        "title0": "Hey, My name is Gizem, I am someone who discovered the software industry late, but developed something my ideas with my fingers and was impressed by it and found myself in the software world.",
+        "title1": "EDUCATION",
+        "title2": "SKILLS",
+        "title3": "GOALS",
+        "li0": "Fast learner",
+        "li1": "Fond of self-development",
+        "li2": "Haven't one zero-day",
+        "li3": "Enthusiastic, Passionate, Innovator, Ambitious",
+        "li4": "Good team player, Friendly",
+        "education0": "I studied in high school, a university in tourism. My master's degree is for tourism also.",
+        "education1": "However, by turning the crisis into an opportunity during the pandemic period, I have started to learn to code on Youtube, then I met with Re: Coded.",
+        "education2": "It was the biggest chance of my life. While I didn't even understand what the developers were writing on the black screen, now I started coding like them.",
+        "goals0": "I am eager to bring the applications I will create with my fingers to the users from the other side of the world! I am passionate about doing websites that affect the user at first sight and making applications to make people's lives easier."
+      },
+      "navbar": {
+        "links": {
+          "link0": "Home",
+          "link1": "About",
+          "link2": "Projects",
+          "link3": "Contact",
+          "link4": "Resume",
+          "link5": "Language"
+        }
+      },   
+      "projects": {
+        "titles": {
+          "title0": "My projects"
+        },
+        "texts": {
+          "text0": "The purpose of this website was to collect food coupon donations for the people in need. This project was the closest one to a real-life company project because we had a lead-engineer and we used SCRUM for development. We used ReactJS for development, Firebase to store data and Ant Design for styling. We've used Stripe API to handle payments, ChartJS for graphs, Wordpress API for our blog, i18next for language support. We've also worked with a UI/UX designer for our designs and used Figma.",
+          "text1": "The purpose of this website was to show my who I am, my education details, skills and projects that I made till now.  We used ReactJS for development, Firebase to store data and Bootstrap for styling, i18next for language support.",
+          "text2": "This project was similar to the IMDb website which you can search for movies, actors and see popular movies, tv shows etc. In this project, my partner and I've used object-oriented programming and MovieDb API to fetch the necessary movie data. Also, I used vanilla JavaScript, HTML and Bootstrap with CSS for styling.",
+          "text3": "The purpose of the website is to play mad libs. It also has Turkish and English language support. It can save your words by using local storage.  For the first time, I did pair programming and worked on a project with a partner and it was my first ever vanilla JavaScript, HTML, CSS project. Also, it was the first time that I learned about and worked with regular expressions, i18next library, local storage. The style of the project was purely CSS. I didn't use any frameworks for styling."
+        },
+        "links": {
+          "link0": "Github repository",
+          "link1": "Open website in a seperate page"
+        },
+        "bolds": {
+          "bold0": "Topics practised: ",
+          "bold1": "Technologies used: "
+        }     
+}
+}

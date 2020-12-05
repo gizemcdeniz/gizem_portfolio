@@ -1,10 +1,11 @@
 .project-wrapper {
   border: 5px solid linear-gradient(to left, #743ad5, #d53a9d);
   border-radius: 10px;
-  box-shadow: 0px 0px 20px #2D8DBD;
+  box-shadow: 2px 2px 20px #2D8DBD;
   padding: 0.5rem;
   margin-top: 1rem;
   width: 80%;
+  margin-bottom: 2em;
   
 }
 

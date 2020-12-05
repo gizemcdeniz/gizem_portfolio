@@ -9,11 +9,11 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      tr: {
-        translation: trTranslation,
-      },
       en: {
         translation: enTranslation,
+      },
+      tr: {
+        translation: trTranslation,
       },
     },
     fallbackLng: "en",

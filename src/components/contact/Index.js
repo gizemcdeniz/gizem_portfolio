@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 import './style.css'
 // import formImg from './Img/form-img.png'
 import formImg from './Img/email.jpg'
@@ -10,10 +11,11 @@ import Col from 'react-bootstrap/Col'
 import styled, { keyframes } from 'styled-components';
 import FadeInLeft from 'react-animations/lib/fade-in-left'
 import FadeInRight from 'react-animations/lib/fade-in-right'
+
 // For forwarding the email to my Gmail account
 // import emailjs from 'emailjs-com';
 
-export default function Contact() {
+const Contact = () => {
 
     // function sendEmail(e) {
     //     e.preventDefault();
@@ -36,15 +38,14 @@ export default function Contact() {
     const FadeInRightDiv = styled.div`
         animation:  2s ${FadeInRightAnimation};
     `;
-
+    const { t } = useTranslation();
     return (
 
         <>
             <Container>
                 <div className="text-center section-caption">
-                    <h1 className="section-title pt-5 pb-3">Get in touch</h1>
-                    <p className="lead w-75 m-auto pb-4 section-p">I'm available for freelance, can't wait for the next
-                        exciting project and it could be yours! So let's work on somthing to be proud of together!</p>
+                    <h1 className="section-title pt-5 pb-3">{t("about.title2")}</h1>
+                    <p className="lead w-75 m-auto pb-4 section-p">{t("contact.title1")}</p>
                 </div>
                 <Row className="flex-column-reverse flex-lg-row my-5">
                     <Col md={6}>
@@ -56,7 +57,7 @@ export default function Contact() {
                                 <button type="submit" value="Send" className="btn btn-outline-primary btn-form my-3 py-2 px-5 btn-block">Send</button>
                             </form> */}
                              <Col md={6}>
-                <span style={{color: "black", fontSize:"2em"}} className="find-me">Social Media</span>
+                <span style={{color: "black", fontSize:"2em"}} className="find-me">{t("contact.title2")}</span>
                 <ul className="list-unstyled list-social-links">
                   <li className="d-inline-block m-3"><a href="https://github.com/gizemcdeniz/" target="_blank" rel='noreferrer noopener'><i className="fab fa-3x fa-github github"></i></a></li>
                   <li className="d-inline-block m-3"><a href="https://www.linkedin.com/in/gizem-deniz/" target="_blank" rel='noreferrer noopener'><i className="fab fa-3x fa-linkedin linkedin"></i></a></li>
@@ -66,7 +67,7 @@ export default function Contact() {
                         </FadeInLeftDiv>
                     </Col>
                     <Col md={6}>
-                    <a style={{fontSize: "2.5em", color:"black"}} className="m-auto d-flex justify-content-center" href="mailto:gizemde.deniz@gmail.com">Send mail</a>
+                    <a style={{fontSize: "2.5em", color:"black"}} className="m-auto d-flex justify-content-center" href="mailto:gizemde.deniz@gmail.com">{t("contact.title3")}</a>
                         <FadeInRightDiv>
                             {/* <img src={formImg} alt="" className="img-fluid m-auto d-block"></img>
                             <span style={{color: "black", fontSize:"2em"}} className="find-me">Or leave a message!</span>
@@ -84,3 +85,4 @@ export default function Contact() {
         </>
     );
 }
+export default Contact;

@@ -1,7 +1,10 @@
 .project-wrapper {
-  border: 5px solid linear-gradient(to left, #743ad5, #d53a9d);
+  /* border: 5px solid linear-gradient(to left, #743ad5, #d53a9d);
   border-radius: 10px;
-  box-shadow: 2px 2px 20px #2D8DBD;
+  box-shadow: 5px 10px 10px 20px #2D8DBD; */
+  background: #f2305a; /* Old browsers */
+  background: linear-gradient(to right, #f0f1f8, #fcf9fb 70%);
+  box-shadow: 5px 5px 5px 5px #d8e8ee;
   padding: 0.5rem;
   margin-top: 1rem;
   width: 80%;
@@ -10,7 +13,8 @@
 }
 
 .project-wrapper:hover {
-  box-shadow: 10px 10px 10px 10px #b37f7f;
+  box-shadow: 5px 10px 10px 20px #ab94d6;
+  transition: 0.3s ease-in-out;
 }
 
 .projects {
@@ -39,8 +43,8 @@
   margin-bottom: 2em;
 }
 .title {
-  color: rgb(202, 86, 86);
-  text-shadow: 2px 2px black;
+  color: rgb(43, 11, 61);
+  text-shadow: 2px 2px rgb(121, 64, 136);
 }
 
 .project-wrapper h1 {
@@ -49,11 +53,13 @@
 }
 
 .project-wrapper .project-text {
-  text-align: left;
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .project-text {
   width: 80%;
+  text-align: center;
 }
 
 .iconProject {

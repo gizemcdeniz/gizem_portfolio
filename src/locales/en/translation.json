@@ -47,6 +47,12 @@
         "bolds": {
           "bold0": "Topics practised: ",
           "bold1": "Technologies used: "
-        }     
-}
+        }
+    },
+      "contact": {
+        "title0": "Get in touch!",
+        "title1": "I can't wait for the next exciting project and it could be yours! So let's work on somthing to be proud of together!",
+        "title2": "Social Media",
+        "title3": "Send Email"
+      }
 }

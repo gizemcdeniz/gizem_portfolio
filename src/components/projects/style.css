@@ -5,7 +5,6 @@
   padding: 0.5rem;
   margin-top: 1rem;
   width: 80%;
-  border: 5px solid black;
   
 }
 
@@ -23,7 +22,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid red;
   align-items: center;
 }
 
@@ -37,7 +35,6 @@
   justify-content: center;
   width: 100%;
   display: flex;
-  border: 5px solid blue;
   margin-bottom: 2em;
 }
 .title {
@@ -56,7 +53,6 @@
 
 .project-text {
   width: 80%;
-  border: 1px solid red;
 }
 
 .iconProject {

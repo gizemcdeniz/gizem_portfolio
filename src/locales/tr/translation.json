@@ -27,27 +27,27 @@
           "link2": "Projeler",
           "link3": "İletişim",
           "link4": "Özgeçmiş",
-          "link5": "Dil"
+          "link5": "Dil",
+          "link6": "İngilizce",
+          "link7": "Türkçe"
         }
       },
       "projects": {
         "titles": {
-          "title0": "Projelerim",
-          "title1": "Diğer projelerim"
+          "title0": "Projelerim"
         },
         "texts": {
-          "text0": "Bu web sitesinin amacı, ihtiyacı olanlara yemek kuponu bağışı toplamaktı. Bu proje gerçek hayattaki bir şirket projesine en yakın projey deneyimiydi çünkü bir baş mühendisimiz vardı ve geliştirme metodu olarak SCRUM kullanmıştık. Geliştirme için ReactJS'yi, verileri depolamak için Firebase'i ve stil oluşturmak için Ant Design'ı kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için Wordpress API, dil desteği için i18next kullandık. Ayrıca tasarımlarımız için bir UI / UX tasarımcısıyla çalıştık ve Figma'yı kullandık.",
+          "text0": "Bu web sitesinin amacı, ihtiyacı olan insanlara yemek kuponu bağışı toplamaktı. Bu projeyi yaparken proje liderimiz vardı ve projeyi sprintlere bölerek kodladık. Geliştirme için ReactJS'yi, verileri depolamak için Firebase'i ve stil oluşturmak için Ant Design'ı kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için Wordpress API, dil desteği için i18next kullandık. Ayrıca tasarımlarımız için bir UI / UX tasarımcısıyla çalıştık ve Figma'yı kullandık.",
           "text1": "Bu web sitesinin amacı, benim kim olduğumu, eğitim bilgilerimi, yeteneklerimi ve şimdiye kadar yaptığım projeleri göstermek. Geliştirme için ReactJS'i, stil oluşturmak için Bootstrap kullandık. Dil desteği için i18next kullandık.",
           "text2": "Bu proje, filmleri, oyuncuları arayabileceğiniz ve popüler filmleri, TV şovlarını vb. görebileceğiniz IMDb web sitesine benzer bir web sitesidir. Bu projede, ortağım ve ben gerekli film verilerini almak için nesne yönelimli programlama ve MovieDb API kullandık. Ayrıca, vanilya JavaScript, HTML ve stil için CSS ile Bootstrap kullandım.",
-          "text3": "Bu web sitesinin amacı  Madlibs oyunu oynamaktır. Ayrıca Türkçe ve İngilizce dil desteğine sahiptir. Yerel depolamayı kullanarak sözcüklerinizi kaydedebilir. Bu projede, ilk defa pair programming ile bir ortakla çalıştım ve bu benim ilk vanilya JavaScript, HTML, CSS projemdi. Ayrıca, regular expressions, i18next kütüphanesi, yerel depolama gibi teknolojileri tecrübe ettim. Projenin tarzı tamamen CSS idir, yani stil için herhangi bir framework kullanmadım."
+          "text3": "Bu web sitesinin amacı  Madlibs oyunu oynamaktır. Bu projede, JavaScript, HTML, CSS ve Bootstrap kullandık. Ayrıca, regular expressions'ı tecrübe ettim."
         },
         "links": {
           "link0": "GitHub repository",
           "link1": "Sayfayı ayrı bir pencerede açın"
         },
         "bolds": {
-          "bold0": "Çalıştığım konular: ",
-          "bold1": "Kullanılan teknolojiler: "
+          "bold0": "Kullanılan teknolojiler: "
         }
         
 },

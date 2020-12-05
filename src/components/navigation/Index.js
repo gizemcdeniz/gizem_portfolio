@@ -26,15 +26,16 @@ const { t } = useTranslation();
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-5 text-uppercase font-weight-bold" to="/contact"  >{t("navbar.links.link3")}</NavLink>
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-5 text-uppercase font-weight-bold" to="/resume" target="_blank" >{t("navbar.links.link4")}</NavLink> 
             </Nav>
+            <GiWorld />
             <NavDropdown  title={t("navbar.links.link5")} id="basic-nav-dropdown">
               <NavDropdown.Item onClick={() => {
                 i18next.changeLanguage("en");
-              }} href="#action/3.1">English</NavDropdown.Item>
+              }} href="#translate/3.1">{t("navbar.links.link6")}</NavDropdown.Item>
               <NavDropdown.Item onClick={() => {
                 i18next.changeLanguage("tr");
-              }} href="#action/3.2">Turkish</NavDropdown.Item>
+              }} href="#translate/3.2">{t("navbar.links.link7")} </NavDropdown.Item>
             </NavDropdown>
-                        <GiWorld />
+            
           </Navbar.Collapse>
         </Navbar>
       </>

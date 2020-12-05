@@ -38,8 +38,8 @@ const Projects = () => {
 
   const linkList = [
     "https:/feed-the-needy.netlify.app/",
-    "https://movieprojectr.netlify.app/",
     "https://gizemportfolio.netlify.app/",
+    "https://movieprojectr.netlify.app/",
     "https://madlibsrecoded.netlify.app"
   ];
 
@@ -50,14 +50,6 @@ const Projects = () => {
     "JavaScript, HTML, CSS, Bootstrap"
   ];
 
-  const topicList = [
-    "SCRUM, Unit Testing, Code Reviews, UI/UX Design",
-    "React, Bootstrap, Bootstrap",
-    "Pair-programming, Object oriented programming, Bootstrap",
-    "JavaScript, HTML and CSS, i18next, Regular Expressions",
-  ];
-
-
   const projectObjList = [];
 
   for (let i = 0; i < projectList.length; i++) {
@@ -67,7 +59,6 @@ const Projects = () => {
       text: textList[i],
       repo: repoList[i],
       link: linkList[i],
-      topic: topicList[i],
       tech: techList[i],
     });
   }
@@ -106,14 +97,11 @@ const Projects = () => {
             </div>
           </h3>
           <div className="project-iframe">{project.website}</div>
+          <h2 className="project-text">{project.details}</h2>
           <p className="project-text">{project.text}</p>
           <div className="projects-bolds">
             <p className="project-text">
               <b>{t("projects.bolds.bold0")}</b>
-              {project.topic}
-            </p>
-            <p className="project-text">
-              <b>{t("projects.bolds.bold1")}</b>
               {project.tech}
             </p>
           </div>

@@ -50,12 +50,6 @@ const Contact = () => {
                 <Row className="flex-column-reverse flex-lg-row my-5">
                     <Col md={6}>
                         <FadeInLeftDiv>
-                            {/* <form name="myForm" id="contact-form" onSubmit={sendEmail}>
-                                <input required placeholder="Your Name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <input required placeholder="Your Email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <textarea required style={{ resize: "none" }} placeholder="Your Message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
-                                <button type="submit" value="Send" className="btn btn-outline-primary btn-form my-3 py-2 px-5 btn-block">Send</button>
-                            </form> */}
                              <Col md={6}>
                 <span style={{color: "black", fontSize:"2em"}} className="find-me">{t("contact.title2")}</span>
                 <ul className="list-unstyled list-social-links">
@@ -69,14 +63,6 @@ const Contact = () => {
                     <Col md={6}>
                     <a style={{fontSize: "2.5em", color:"black"}} className="m-auto d-flex justify-content-center" href="mailto:gizemde.deniz@gmail.com">{t("contact.title3")}</a>
                         <FadeInRightDiv>
-                            {/* <img src={formImg} alt="" className="img-fluid m-auto d-block"></img>
-                            <span style={{color: "black", fontSize:"2em"}} className="find-me">Or leave a message!</span>
-                            <form name="myForm" id="contact-form" onSubmit={sendEmail}>
-                                <input required placeholder="Your Name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <input required placeholder="Your Email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <textarea required style={{ resize: "none" }} placeholder="Your Message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
-                                <button type="submit" value="Send" className="btn btn-outline-primary btn-form my-3 py-2 px-5 btn-block">Send</button>
-                            </form> */}
                             <img src={formImg} alt="" className="img-fluid m-auto d-block"></img>
                         </FadeInRightDiv>
                     </Col>

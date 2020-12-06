@@ -38,10 +38,10 @@
           "title0": "Projelerim"
         },
         "texts": {
-          "text0": "Bu web sitesinin amacı, ihtiyacı olan insanlar için gıda kuponu bağışları toplamaktı. Bu proje, gerçek hayattaki bir şirket projesine en yakın projeydi çünkü bir baş mühendisimiz vardı ve geliştirme için çevik metodoloji kullandık. Geliştirme için ReactJS, verileri depolamak için Firebase ve stil oluşturmak için Ant Design kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için WordPress API, dil desteği için i18next kullandık. Figma kullanarak kendi tasarımımızı yarattık ve tasarım geri bildirimlerimiz için bir UI / UX tasarımcısı ile çalıştık.",
+          "text0": "Bu web sitesinin amacı, ihtiyacı olan insanlar için gıda kuponu bağışları toplamaktı. Bu proje, gerçek bir şirkette çalışıyormuş gibi uygunlandı çünkü bir takım liderimiz vardı ve geliştirme için çevik metodoloji kullandık. Geliştirme için ReactJS, verileri depolamak için Firebase ve stil oluşturmak için Ant Design kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için WordPress API, dil desteği için i18next kullandık. Figma kullanarak kendi tasarımımızı yarattık ve tasarım geri bildirimlerimiz için bir UI / UX tasarımcısı ile çalıştık.",
           "text1": "Bu web sitesinin amacı, benim kim olduğumu, eğitim bilgilerimi, yeteneklerimi ve şimdiye kadar yaptığım projeleri göstermek. Geliştirme için ReactJS'i, stil oluşturmak için Bootstrap kullandık. Dil desteği için i18next kullandık.",
-          "text2": "Bu proje, filmleri, oyuncuları arayabileceğiniz ve popüler filmleri, TV şovlarını vb. görebileceğiniz IMDb web sitesine benzer bir web sitesidir. Bu projede, ortağım ve ben gerekli film verilerini almak için nesne yönelimli programlama ve MovieDb API kullandık. Ayrıca, vanilya JavaScript, HTML ve stil için CSS ile Bootstrap kullandım.",
-          "text3": "Bu web sitesinin amacı  Madlibs oyunu oynamaktır. Bu projede, JavaScript, HTML, CSS ve Bootstrap kullandık. Ayrıca, regular expressions'ı tecrübe ettim."
+          "text2": "Bu proje, filmleri, oyuncuları arayabileceğiniz ve popüler filmleri, TV şovlarını vb. görebileceğiniz IMDb web sitesine benzer bir web sitesidir. Bu projede, takım arkadaşlarım ve ben gerekli film verilerini almak için nesne yönelimli programlama ve MovieDb API kullandık. Ayrıca, JavaScript, HTML ve stil için CSS ile Bootstrap kullandık.",
+          "text3": "Bu web sitesinin amacı Madlibs oyunu oynamaktır.(Nasıl oynandığını Google'dan bakabilirsiniz) Bu projede, JavaScript, HTML, CSS ve Bootstrap kullandık. Ayrıca, regular expressions'ı tecrübe ettim."
         },
         "links": {
           "link0": "GitHub repository",

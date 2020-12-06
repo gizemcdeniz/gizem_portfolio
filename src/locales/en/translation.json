@@ -38,10 +38,10 @@
           "title0": "My projects"
         },
         "texts": {
-          "text0": "The purpose of this website was to collect food coupon donations for people in need. This project was the closest one to a real-life company project because we had a lead-engineer and we used agile methodology for development. We used ReactJS for development, Firebase to store data, and Ant Design for styling. We've used Stripe API to handle payments, ChartJS for graphs, WordPress API for our blog, i18next for language support. We created our own design used Figma and we worked with a UI/UX designer for our design feedbacks.",
+          "text0": "The purpose of this website was to collect food coupon donations for people in need. This project was the closest one to a real-life company project because we had a team leader and we used agile methodology for development. We used ReactJS for development, Firebase to store data, and Ant Design for styling. We've used Stripe API to handle payments, ChartJS for graphs, WordPress API for our blog, i18next for language support. We created our own design used Figma and we worked with a UI/UX designer for our design feedbacks.",
           "text1": "The purpose of this website was to show my who I am, my education details, skills and projects that I made till now.  We used ReactJS for development, Firebase to store data and Bootstrap for styling, i18next for language support.",
-          "text2": "This project was similar to the IMDb website which you can search for movies, actors and see popular movies, tv shows etc. In this project, my partner and I've used object-oriented programming and MovieDb API to fetch the necessary movie data. Also, I used vanilla JavaScript, HTML and Bootstrap with CSS for styling.",
-          "text3": "The purpose of the website is to play mad libs..It can save your words by using local storage. We used HTML, CSS and Boostrap on this project. Also, I learned about and worked with regular expressions."
+          "text2": "This project was similar to the IMDb website which you can search for movies, actors and see popular movies, tv shows etc. In this project, my partner and I've used object-oriented programming and MovieDb API to fetch the necessary movie data. Also, I used JavaScript, HTML and Bootstrap with CSS for styling.",
+          "text3": "The purpose of the website is to play mad libs.(You can check how to play it on Google) It can save your words by using local storage. We used HTML, CSS and Boostrap on this project. Also, I learned about and worked with regular expressions."
         },
         "links": {
           "link0": "Github repository",

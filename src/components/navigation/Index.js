@@ -1,11 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import "./style.css"
-// Bootstrp
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-// import Nav from 'react-bootstrap/Nav'
 import i18next from "i18next";
-import { GiWorld } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
 
 
@@ -26,7 +23,6 @@ const { t } = useTranslation();
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-5 text-uppercase font-weight-bold" to="/contact"  >{t("navbar.links.link3")}</NavLink>
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-5 text-uppercase font-weight-bold" to="/resume" target="_blank" >{t("navbar.links.link4")}</NavLink> 
             </Nav>
-            <GiWorld />
             <NavDropdown title={t("navbar.links.link5")} id="basic-nav-dropdown">
               <NavDropdown.Item onClick={() => {
                 i18next.changeLanguage("en");

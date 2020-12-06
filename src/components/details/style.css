@@ -19,6 +19,37 @@
   background-color: #62c0e3;
 }
 
+.section-title {
+  color: rgb(100, 14, 100);
+}
+
+#mailto {
+  display: block;
+  width: 6em;
+  height: 1.5em;
+  border: 2px solid rgb(43, 5, 68);
+  background: linear-gradient(to right, #6f7bbe, #b80b6d 70%);
+  font-family: "Lato", sans-serif;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+#mailto:hover {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 4px 4px 1px rgba(143, 9, 170, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
 #gizemImage {
   width: 27em;
   height: 30em;

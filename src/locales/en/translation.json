@@ -6,18 +6,19 @@
       },
       "details": {
         "head": "Here's all about you need to know about me!",
-        "title0": "Hey, My name is Gizem, I am someone who discovered the software industry late, but developed something my ideas with my fingers and was impressed by it and found myself in the software world.",
+        "title0": "My name is Gizem, I am working as a product owner. Because of my enthusiasm to want to develop my own ideas, I found myself in the infinite world of software. The thought that finger-created products can be used by users on the other side of the world excites me.",
         "title1": "EDUCATION",
         "title2": "SKILLS",
         "title3": "GOALS",
         "li0": "Fast learner",
         "li1": "Fond of self-development",
         "li2": "Haven't one zero-day",
-        "li3": "Enthusiastic, Passionate, Innovator, Ambitious",
+        "li3": "Enthusiastic, Passionate, Innovator, Ambitious, Curious",
         "li4": "Good team player, Friendly",
-        "education0": "I studied in high school, a university in tourism. My master's degree is for tourism also.",
-        "education1": "However, by turning the crisis into an opportunity during the pandemic period, I have started to learn to code on Youtube, then I met with Re: Coded.",
-        "education2": "It was the biggest chance of my life. While I didn't even understand what the developers were writing on the black screen, now I started coding like them.",
+        "education0": "Re:Coded Bootcamp (Re:Coded + Flatiron School) 2020",
+        "education1": "Management Information Systems, İstanbul University, 2020 - 2014",
+        "education2": "Hotel Management / İstanbul Arel University, 2015 2017",
+        "education3": "Tourism & Hospitality / İstanbul Arel University, 2011 -2015",
         "goals0": "I am eager to bring the applications I will create with my fingers to the users from the other side of the world! I am passionate about doing websites that affect the user at first sight and making applications to make people's lives easier."
       },
       "navbar": {
@@ -37,7 +38,7 @@
           "title0": "My projects"
         },
         "texts": {
-          "text0": "The purpose of this website was to collect food coupon donations for the people in need. This project was the closest one to a real-life company project because we had a lead-engineer and we used SCRUM for development. We used ReactJS for development, Firebase to store data and Ant Design for styling. We've used Stripe API to handle payments, ChartJS for graphs, Wordpress API for our blog, i18next for language support. We've also worked with a UI/UX designer for our designs and used Figma.",
+          "text0": "The purpose of this website was to collect food coupon donations for people in need. This project was the closest one to a real-life company project because we had a lead-engineer and we used agile methodology for development. We used ReactJS for development, Firebase to store data, and Ant Design for styling. We've used Stripe API to handle payments, ChartJS for graphs, WordPress API for our blog, i18next for language support. We created our own design used Figma and we worked with a UI/UX designer for our design feedbacks.",
           "text1": "The purpose of this website was to show my who I am, my education details, skills and projects that I made till now.  We used ReactJS for development, Firebase to store data and Bootstrap for styling, i18next for language support.",
           "text2": "This project was similar to the IMDb website which you can search for movies, actors and see popular movies, tv shows etc. In this project, my partner and I've used object-oriented programming and MovieDb API to fetch the necessary movie data. Also, I used vanilla JavaScript, HTML and Bootstrap with CSS for styling.",
           "text3": "The purpose of the website is to play mad libs..It can save your words by using local storage. We used HTML, CSS and Boostrap on this project. Also, I learned about and worked with regular expressions."
@@ -47,12 +48,13 @@
           "link1": "Open website in a seperate page"
         },
         "bolds": {
-          "bold0": "Technologies used: "
+          "bold0": "Technologies used:",
+           "bold1": "Project Details"
         }
     },
       "contact": {
         "title0": "Get in touch!",
-        "title1": "I can't wait for the next exciting project and it could be yours! So let's work on somthing to be proud of together!",
+        "title1": "I can't wait for the next exciting project. So let's work on somthing to be proud of together!",
         "title2": "Social Media",
         "title3": "Send Email"
       }

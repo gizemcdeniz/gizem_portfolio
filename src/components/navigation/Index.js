@@ -27,7 +27,7 @@ const { t } = useTranslation();
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-5 text-uppercase font-weight-bold" to="/resume" target="_blank" >{t("navbar.links.link4")}</NavLink> 
             </Nav>
             <GiWorld />
-            <NavDropdown  title={t("navbar.links.link5")} id="basic-nav-dropdown">
+            <NavDropdown title={t("navbar.links.link5")} id="basic-nav-dropdown">
               <NavDropdown.Item onClick={() => {
                 i18next.changeLanguage("en");
               }} href="#translate/3.1">{t("navbar.links.link6")}</NavDropdown.Item>

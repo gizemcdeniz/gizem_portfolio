@@ -1,8 +1,5 @@
 .project-wrapper {
-  /* border: 5px solid linear-gradient(to left, #743ad5, #d53a9d);
-  border-radius: 10px;
-  box-shadow: 5px 10px 10px 20px #2D8DBD; */
-  background: #f2305a; /* Old browsers */
+  background: #f2305a;
   background: linear-gradient(to right, #f0f1f8, #fcf9fb 70%);
   box-shadow: 5px 5px 5px 10px #d8e8ee;
   padding: 0.5rem;
@@ -60,7 +57,7 @@
 .project-text {
   width: 80%;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .iconProject {
@@ -79,7 +76,7 @@
 }
 
 .projects-bolds {
-  text-align: left;
+  text-align: center;
 }
 
 .project-iframe {

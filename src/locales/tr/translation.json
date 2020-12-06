@@ -6,27 +6,28 @@
       },
       "details": {
         "head": "Benim hakkımda bilmeniz gereken her şey burada!",
-        "title0": "Ben Gizem, yazılım sektörünü geç keşfeden ama parmaklarımla fikirlerimi geliştirmeyi seven ve kendimi yazılım dünyasında bulan biriyim.",
+        "title0": "Benim adım Gizem, ürün uzmanı olarak çalışıyorum. Kendi fikirlerimi geliştirme hevesimden dolayı, kendimi yazılımın sonsuz dünyasında buldum. Parmakla üretilen ürünlerin dünyanın diğer ucundaki kullanıcılar tarafından kullanılabileceği düşüncesi beni heyecanlandırıyor.",
         "title1": "EĞİTİM BİLGİSİ",
         "title2": "YETENEKLER",
         "title3": "HEDEFLER",
         "li0": "Hızlı öğrenirim",
         "li1": "Kendimi geliştirmeyi severim",
         "li2": "Boş günüm yoktur",
-        "li3": "Hevesliyim, Tutkuluyum, Yenilikçiyim, Hırslıyım",
+        "li3": "Hevesliyim, Tutkuluyum, Yenilikçiyim, Hırslıyım, Meraklıyım",
         "li4": "İyi bir takım oyuncusuyum, Sosyal biriyim.",
-        "education0": "Lise, üniversite ve yüksek lisansımı turizm üzerine okudum.",
-        "education1": "Ancak pandemi döneminde krizi fırsata çevirerek Youtube'da kodlama öğrenmeye başladım, ardından Re: Coded ile tanıştım",
-        "education2": "Hayatımın en büyük şansı buydu.Geliştiricilerin siyah ekranda ne yazdıklarını bile anlamazken, şimdi onlar gibi kodlamaya başladım.",
+        "education0": "Re:Coded Bootcamp (Re:Coded + Flatiron School) - 2020",
+        "education1": "Yönetim Bilişim Sistemleri, İstanbul Üniversitesi, 2020 - 2014",
+        "education2": "Hotel Management / İstanbul Arel Üniversitesi, 2015 -2017",
+        "education3": "Tourism & Hospitality / İstanbul Arel Üniversitesi, 2011 -2015",
         "goals0":"Parmaklarımla oluşturacağım uygulamaları dünyanın diğer ucundaki kullanıcılara ulaştırmak için can atıyorum! Kullanıcıyı ilk bakışta etkileyen web siteleri yapma ve insanların hayatını kolaylaştıracak uygulamalar yapma konusunda tutkuluyum."
     },
       "navbar": {
         "links": {
-          "link0": "Anasayfa",
-          "link1": "Hakkımda",
-          "link2": "Projeler",
-          "link3": "İletişim",
-          "link4": "Özgeçmiş",
+          "link0": "ANASAYFA",
+          "link1": "HAKKIMDA",
+          "link2": "PROJELER",
+          "link3": "İLETİŞİM",
+          "link4": "ÖZGEÇMİŞ",
           "link5": "Dil",
           "link6": "İngilizce",
           "link7": "Türkçe"
@@ -37,7 +38,7 @@
           "title0": "Projelerim"
         },
         "texts": {
-          "text0": "Bu web sitesinin amacı, ihtiyacı olan insanlara yemek kuponu bağışı toplamaktı. Bu projeyi yaparken proje liderimiz vardı ve projeyi sprintlere bölerek kodladık. Geliştirme için ReactJS'yi, verileri depolamak için Firebase'i ve stil oluşturmak için Ant Design'ı kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için Wordpress API, dil desteği için i18next kullandık. Ayrıca tasarımlarımız için bir UI / UX tasarımcısıyla çalıştık ve Figma'yı kullandık.",
+          "text0": "Bu web sitesinin amacı, ihtiyacı olan insanlar için gıda kuponu bağışları toplamaktı. Bu proje, gerçek hayattaki bir şirket projesine en yakın projeydi çünkü bir baş mühendisimiz vardı ve geliştirme için çevik metodoloji kullandık. Geliştirme için ReactJS, verileri depolamak için Firebase ve stil oluşturmak için Ant Design kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için WordPress API, dil desteği için i18next kullandık. Figma kullanarak kendi tasarımımızı yarattık ve tasarım geri bildirimlerimiz için bir UI / UX tasarımcısı ile çalıştık.",
           "text1": "Bu web sitesinin amacı, benim kim olduğumu, eğitim bilgilerimi, yeteneklerimi ve şimdiye kadar yaptığım projeleri göstermek. Geliştirme için ReactJS'i, stil oluşturmak için Bootstrap kullandık. Dil desteği için i18next kullandık.",
           "text2": "Bu proje, filmleri, oyuncuları arayabileceğiniz ve popüler filmleri, TV şovlarını vb. görebileceğiniz IMDb web sitesine benzer bir web sitesidir. Bu projede, ortağım ve ben gerekli film verilerini almak için nesne yönelimli programlama ve MovieDb API kullandık. Ayrıca, vanilya JavaScript, HTML ve stil için CSS ile Bootstrap kullandım.",
           "text3": "Bu web sitesinin amacı  Madlibs oyunu oynamaktır. Bu projede, JavaScript, HTML, CSS ve Bootstrap kullandık. Ayrıca, regular expressions'ı tecrübe ettim."
@@ -47,13 +48,14 @@
           "link1": "Sayfayı ayrı bir pencerede açın"
         },
         "bolds": {
-          "bold0": "Kullanılan teknolojiler: "
+          "bold0": "Kullanılan teknolojiler: ",
+          "bold1": "Proje Detayları"
         }
         
 },
 "contact": {
   "title0": "İletişime Geç",
-  "title1": "Bir sonraki heyecan verici proje için sabırsızlanıyorum ve bu sizin olabilir! O halde birlikte gurur duyacağımız bir şey üzerinde çalışalım!",
+  "title1": "Bir sonraki heyecan verici proje için sabırsızlanıyorum. O halde birlikte gurur duyacağımız bir şey üzerinde çalışalım!",
   "title2": "Sosyal Medya",
   "title3": "Mail Gönder"
 

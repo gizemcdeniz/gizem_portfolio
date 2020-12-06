@@ -20,13 +20,6 @@ const Projects = () => {
     t("projects.texts.text2"),
     t("projects.texts.text3"),
     t("projects.texts.text4"),
-    t("projects.texts.text5"),
-    t("projects.texts.text6"),
-    t("projects.texts.text7"),
-    t("projects.texts.text8"),
-    t("projects.texts.text9"),
-    t("projects.texts.text10"),
-    t("projects.texts.text11"),
   ];
 
   const repoList = [
@@ -97,7 +90,7 @@ const Projects = () => {
             </div>
           </h3>
           <div className="project-iframe">{project.website}</div>
-          <h2 className="project-text">{project.details}</h2>
+          <h4 className="projects-bolds">{t("projects.bolds.bold1")}</h4>
           <p className="project-text">{project.text}</p>
           <div className="projects-bolds">
             <p className="project-text">

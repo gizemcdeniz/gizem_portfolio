@@ -30,7 +30,7 @@ const Projects = () => {
   ];
 
   const linkList = [
-    "https://feed-the-needy.netlify.app/",
+    "https://itsonus.netlify.app/",
     "https://gizemportfolio.netlify.app/",
     "https://movieprojectr.netlify.app/",
     "https://madlibsrecoded.netlify.app"
